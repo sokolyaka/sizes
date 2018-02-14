@@ -1,2 +1,2 @@
 # sizes
-Set of utilities to work with the Size abstraction.
+Set of utilities to work with the Size abstraction in Android.
