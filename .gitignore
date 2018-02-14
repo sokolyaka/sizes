@@ -1,0 +1,11 @@
+**/.idea
+**.iml
+**/build
+**/.gradle
+local.properties
+*.apk
+**/captures
+audience/gradlew.bat
+audience/gradlew
+audience/gradle/wrapper/gradle-wrapper.properties
+audience/gradle/wrapper/gradle-wrapper.jar
