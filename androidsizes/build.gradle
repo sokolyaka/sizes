@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'androidSizes'
+    bintrayRepo = 'AndroidSizes'
+    bintrayName = 'android-sizes'
 
     publishedGroupId = 'com.github.sokolyaka'
-    libraryName = 'AndroidSizes'
+    libraryName = 'android-sizes'
     artifact = 'android-sizes'
 
     libraryDescription = 'Set of utilities to work with the Size abstraction in Android.'
@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/sokolyaka/sizes'
     gitUrl = 'https://github.com/sokolyaka/sizes.git'
 
-    libraryVersion = '1.0'
+    libraryVersion = '1.0.0'
 
     developerId = 'sokolyaka'
     developerName = 'Oleh Sokolov'
