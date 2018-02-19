@@ -3,7 +3,7 @@ Set of utilities to work with the Size abstraction in Android.
 
 ```gradle
 repositories {
-    maven { url 'https://dl.bintray.com/sokolyaka/maven' }
+    jcenter()
 }
 ```
 
