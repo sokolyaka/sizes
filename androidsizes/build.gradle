@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/sokolyaka/sizes'
     gitUrl = 'https://github.com/sokolyaka/sizes.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'sokolyaka'
     developerName = 'Oleh Sokolov'
