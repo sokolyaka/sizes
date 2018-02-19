@@ -29,20 +29,12 @@ public class SmplSize implements ISize {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        SmplSize smplSize = (SmplSize) o;
-
-        if (w != smplSize.w) return false;
-        return h == smplSize.h;
+        return SizeEqualsAndHashCode.equals(this, o);
 
     }
 
     @Override
     public int hashCode() {
-        int result = w;
-        result = 31 * result + h;
-        return result;
+        return SizeEqualsAndHashCode.hashCode(this);
     }
 }
