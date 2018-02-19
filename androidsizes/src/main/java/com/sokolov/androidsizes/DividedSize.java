@@ -19,4 +19,15 @@ public class DividedSize implements ISize {
     public int height() {
         return origin.height() / divider;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        return SizeEqualsAndHashCode.equals(this, o);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return SizeEqualsAndHashCode.hashCode(this);
+    }
 }

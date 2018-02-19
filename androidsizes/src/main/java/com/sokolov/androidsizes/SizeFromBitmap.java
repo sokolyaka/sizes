@@ -37,4 +37,15 @@ public class SizeFromBitmap implements ISize {
         width = options.outWidth;
         height = options.outHeight;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        return SizeEqualsAndHashCode.equals(this, o);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return SizeEqualsAndHashCode.hashCode(this);
+    }
 }

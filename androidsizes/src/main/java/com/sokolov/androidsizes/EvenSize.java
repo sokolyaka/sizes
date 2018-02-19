@@ -25,4 +25,15 @@ public class EvenSize implements ISize {
         }
         return height;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        return SizeEqualsAndHashCode.equals(this, o);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return SizeEqualsAndHashCode.hashCode(this);
+    }
 }

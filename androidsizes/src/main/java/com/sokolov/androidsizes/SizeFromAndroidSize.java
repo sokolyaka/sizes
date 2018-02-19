@@ -19,4 +19,14 @@ public class SizeFromAndroidSize implements ISize {
         return size.getHeight();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        return SizeEqualsAndHashCode.equals(this, o);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return SizeEqualsAndHashCode.hashCode(this);
+    }
 }
