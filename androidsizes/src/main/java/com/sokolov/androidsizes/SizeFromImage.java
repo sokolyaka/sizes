@@ -3,12 +3,12 @@ package com.sokolov.androidsizes;
 import android.graphics.BitmapFactory;
 
 //Not thread safe
-public class SizeFromBitmap implements ISize {
+public class SizeFromImage implements ISize {
     private String path;
     private int width;
     private int height;
 
-    public SizeFromBitmap(String path) {
+    public SizeFromImage(String path) {
         this.path = path;
         width = -1;
         height = -1;
