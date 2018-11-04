@@ -1,3 +1,4 @@
+[ ![Download](https://api.bintray.com/packages/sokolyaka/maven/androidsizes/images/download.svg) ](https://bintray.com/sokolyaka/maven/androidsizes/_latestVersion)
 # Android Sizes
 Set of utilities to work with the Size abstraction in Android.
 
