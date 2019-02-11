@@ -1,8 +1,11 @@
 package com.sokolov.androidsizes;
 
+import android.annotation.TargetApi;
 import android.graphics.Point;
+import android.os.Build;
 import android.view.Display;
 
+@TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
 public class SizeFromDisplay implements ISize {
 
     private final Display display;

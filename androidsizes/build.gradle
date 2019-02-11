@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/sokolyaka/sizes'
     gitUrl = 'https://github.com/sokolyaka/sizes.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'sokolyaka'
     developerName = 'Oleh Sokolov'
@@ -25,15 +25,13 @@ ext {
 }
 
 android {
-    compileSdkVersion 26
-
-
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 26
+        minSdkVersion 14
+        targetSdkVersion 28
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.3"
 
     }
 
