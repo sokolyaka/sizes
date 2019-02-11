@@ -30,6 +30,6 @@ repositories {
 
 ```gradle
 dependencies {
-    compile 'com.github.sokolyaka:androidsizes:1.0.2'
+    compile 'com.github.sokolyaka:androidsizes:1.0.3'
 }
 ```
