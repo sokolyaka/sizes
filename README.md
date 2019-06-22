@@ -7,19 +7,19 @@ Get Screen width and height
 ```java
 ISize size = new SizeFromDisplay(getWindowManager().getDefaultDisplay());
 size.width();
-size.hight();
+size.height();
 ```
 Get video width and height
 ```java
 ISize size = new SizeFromVideoFile(videoFilePath);
 size.width();
-size.hight();
+size.height();
 ```
 Get image file width and height
 ```java
 ISize size = new SizeFromImage(imgFilePath);
 size.width();
-size.hight();
+size.height();
 ```
 # How to set-up?
 ```gradle
